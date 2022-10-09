@@ -1,0 +1,99 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 203, 238);
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+}
+
+.container {
+    margin: 64px auto;
+    background-color: white;
+    padding: 32px 64px;
+}
+
+.container h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 16px;
+    text-align: center;
+    background-color: white;
+    color: rgb(124, 3, 84)
+}
+
+.container p {
+    margin-bottom: 48px;
+    text-align: center;
+    background-color: white;
+    color: rgb(124, 3, 84);
+}
+
+label {
+    display: block;
+    cursor: pointer;
+    margin-bottom: 8px;
+    background-color: white;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 24px;
+    border: 2px solid rgb(155, 0, 103);
+    border-radius: 4px;
+    background-color: white;
+}
+
+input::placeholder {
+    font-weight: 700;
+    color: rgb(145, 145, 145);
+}
+
+button {
+    background-color:rgb(155, 0, 103);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 48px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+form {
+    background-color: white;
+}
+
+label {
+    color: rgb(124, 3, 84);
+}
+
+#hasil {
+    visibility: hidden;
+    color: rgb(104, 0, 69);
+    text-align: center;
+    background-color: white;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+#BMI {
+    background-color: white;
+}
+
+#keterangan {
+    background-color: white;
+}
+#quote {
+    background-color: white;
+}
+

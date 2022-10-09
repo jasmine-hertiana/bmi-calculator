@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bmi.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="./bmi.js" defer></script>
+    <title>BMI Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Check your BMI</h1>
+        <p>Enter your weight and height below to check your BMI results</p>
+
+        <form id="form" onsubmit="return cekHitung()">
+            <label for="berat">Put your weight in here (KG)</label>
+            <input id="berat" type="number" placeholder="0">
+            <br>
+            <label for="tinggi">And your height in here (CM)</label>
+            <input id="tinggi" type="number" placeholder="0">
+            <br>
+            <button id="submit" type="button">Calculate BMI</button>
+        </form>
+        <div id="hasil">
+            <p>Your BMI is <strong id="BMI"></strong> which means you are <strong id="keterangan"></strong></p>
+            <h4 id="quote">It's Okay, You Are You! Just Love Yourself and Be Healthy</h4>
+        </div>
+    </div>
+</body>
+
+</html>
